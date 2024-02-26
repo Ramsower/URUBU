@@ -18,7 +18,8 @@
         align-self: center;
     }
     img{
-        display: none;
+        margin-top: 60px;
+        margin-left: -15px;
     }
 
     ul{
