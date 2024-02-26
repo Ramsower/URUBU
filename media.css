@@ -1,30 +1,35 @@
 @media screen and (max-width: 760px){
-
     header{
         flex-direction: column;
-
+        align-items: center; /* Alinhar itens centralmente */
     }
     main{
         flex-direction: column;
     }
     h2{
-        font-size: 38px;
+        font-size: 24px; /* Reduzir o tamanho da fonte para melhor adaptação */
+        text-align: center; /* Centralizar o texto */
     }
     form{
         margin: 0 auto;
-        width: 100%;
+        width: 80%; /* Reduzir a largura do formulário para melhor ajuste em telas menores */
     }
     input{
-        align-self: center;
+        display: block; /* Mudar para bloco para ocupar toda a largura disponível */
+        margin: 10px auto; /* Adicionar margens para espaçamento */
     }
     img{
-        margin-top: 60px;
-        margin-left: -15px;
+        margin-top: 20px; /* Reduzir a margem superior */
+        margin-left: auto; /* Alinhar a imagem ao centro horizontalmente */
+        margin-right: auto; /* Alinhar a imagem ao centro horizontalmente */
     }
 
     ul{
         text-align: center;
-        
+        padding: 0; /* Remover o preenchimento padrão da lista */
     }
-
+    li {
+        display: inline-block; /* Dispor os itens da lista em linha */
+        margin: 0 10px; /* Adicionar margens entre os itens */
+    }
 }
